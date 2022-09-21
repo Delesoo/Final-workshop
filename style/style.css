@@ -1,0 +1,917 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: chemifonti;
+    src: url(../fonts/Ruda-Regular.ttf);
+}
+
+@font-face {
+    font-family: glaho;
+    src: url(../fonts/bpg_glaho_sylfaen.ttf);
+}
+
+body{
+    background-size: cover;
+    background-image: url(../images/white-clean-hexagonal-medical-concept_1017-29801.jpg);
+    background-size: 100%;
+}
+
+.navigation{
+    width: 100%;
+    height: 202px;
+    background-image: url(../images/Rectangle\ 1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.navigation h1{
+    background-image: url(../images/Untitled-1\ 1.png);
+    background-size: 100%;
+    width: 140px;
+    height: 100px;
+    text-indent: -9999999px;
+    float: left;
+}
+.navigation .box{
+    width: 638px;
+    height: 100px;
+    margin-left: 24px;
+    margin-top: 14px;
+    background-color: #000000;
+    border: 9px solid #2A1C32;
+}
+h1 a{
+    display: block;
+    width: 140px;
+    height: 100px;
+}
+
+.navigation h2{
+    padding-top: 30px;
+    font-size: 48px;
+    font-family: chemifonti;
+    color: #cdab4c;
+    text-shadow: 3px 3px 3px #ffffff;
+}
+.searchkont{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 60px;
+    margin-top: 20px;
+}
+.search{
+    margin-left: 50%;
+    display: flex;
+}
+.search .magnifierglass{
+    width: 64px;
+    height: 64px;
+    background-image: url(../images/Rectangle\ 8.png);
+    background-size: 100%;
+}
+.search input[type=text] {
+    border: none;
+    width: 646px;
+    height: 64px;
+    background-color: #000000;
+    font-size: 20px;
+    padding: 14px;
+    color: #ffffff;
+}
+.jdmkont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+    flex-wrap: wrap;
+}
+.jdm{
+    background-image: url(../images/JDM.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -50px;
+    width: 434px;
+    height: 206px;
+    border: 8px solid #291B31;
+}
+.jdm:hover{
+    box-shadow: 0px 1px 10px 10px rgba(0, 0, 0, 0.395);
+    transition: 0.5s;
+}
+.zolikont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 210px;  
+}
+.zoli1{
+    background-color: #000000;
+    height: 3px;
+    width: 110px;
+
+}
+.kubiki1{
+    background-color: #000000;
+    width: 10px;
+    height: 10px;
+    rotate: 45deg;
+}
+
+.jdm a{
+    color: #000000;
+    font-family: glaho;
+    font-size: 18px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.jdm a:hover{
+    color: #cdab4c;
+    transition: 0.2s;
+}
+.jdm2{
+
+    background-image: url(../images/jdm-legends.jpg);
+    background-size: 100%;
+    margin-left: 42px; 
+    left: 480px;  
+}
+.jdm2 h3{
+    margin-left: 38px;
+    margin-right: 38px;
+}
+.jdm3{
+
+    background-image: url(../images/japanese-cars-collage.jpg);
+    background-size: 100%;
+    margin-left: 42px;
+    background-position-y: -24px;
+    left: 978px;
+}
+.jdm3 h3{
+    margin-left: 26px;
+    margin-right: 26px;
+}
+.welcomekont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px
+}
+.welcome{
+    position: relative;
+    background-image: url(../images/Rectangle\ 9.png);
+    background-size: 100%;
+    width: 412px;
+    height: 434px;
+    margin-right: 974px;
+    margin-top: 64px;
+}
+.welcome h2{
+    color: #ffffff;
+    text-align: center;
+    font-family: glaho;
+    font-size: 32px;
+}
+.welcome h3{
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #000000;
+    text-align: center;
+    margin-top: 20px;
+}
+.welcome a{
+    position: absolute;
+    top: 406px;
+    left: 158px;
+    color: #ffffff;
+    text-align: center;
+    font-family: glaho;
+}
+.welcome a:hover{
+    border-bottom: 1px solid #ffffff;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    z-index: -1;
+}
+.calluskont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 600px;
+}
+.callus{
+    background-image: linear-gradient(#000000, #9354B4);
+    width: 96%;
+    height: 184px;
+    border-radius: 80px 80px 0 0;
+    border: 5px solid #ffffff;
+}
+.callus h2{
+    color: #ffffff;
+    font-size: 36px;
+    font-family: glaho;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.callus2kont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px;
+}
+.callus2{
+    position: relative;
+    background-image: linear-gradient(#9354B4, #000000);
+    width: 96%;
+    height: 184px;
+    border-radius: 0 0 80px 80px;
+    border: 5px solid #ffffff;
+}
+.iconskont{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 660px;
+    left: 0;
+}
+.phone{
+    margin-left: 250px;
+}
+.infokont{
+    position: absolute;
+    width: 105%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    right: 0px;  
+    top: 730px;
+}
+.infokont h3{
+    font-family: glaho;
+    color: #ffffff;
+}
+.number{
+    margin-left: 370px;
+    font-family: glaho; 
+}
+.infokont2 li{
+    margin-top: 10px;
+    margin-left: 66px;
+}
+.map{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: glaho;
+}
+.infokont2 li a{
+    color: #ffffff;
+    font-family: glaho;
+}
+.infokont3{
+    position: absolute;
+    top: 32px;
+}
+.infokont3 li{
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.infokont3 li a{
+    color: #ffffff;
+    font-family: glaho;
+}
+.infokont4{
+    position: absolute;
+    left: 814px;
+    top: 10px;
+}
+.infokont4 h2{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: glaho;
+    margin-left: 20px;
+}
+.infokont4 h3{
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: glaho;
+    width: 536px;
+}
+.box ul{
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 16px;
+    padding: 5px 10px;
+    display: flex;
+    
+}
+.box li a{
+    color: #ffffff;
+    font-size: 32px;
+    font-family: glaho;
+    position: relative;
+    color: #ffffff;
+}
+.box .active{
+    border-bottom: 2px solid #ffffff;
+}
+.box li a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0px;
+    left: 0;
+    top: 46px;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.box li a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.linkskont{
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    left: 40px;
+    top: 230px;
+}
+.linkskont a{
+    color: #000000;
+    font-family: glaho;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #00000031;
+}
+.linkskont a:hover{
+    text-shadow: 0px 0px 3px #cdab4c;
+}
+.shavizoli{
+    background-color: #000000;
+    width: 28px;
+    height: 2px;
+    margin-left: 10px;
+}
+.rgoli{
+    background-color: #000000;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+form input{
+    margin-left: 20px;
+    padding: 10px;
+    width: 180px;
+}
+form button{
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 20%;
+    cursor: pointer;
+    background-image: linear-gradient(#A04343, #452424); 
+    border: none;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px #000000df
+}
+.register:hover {
+    background-image: linear-gradient(#cb6a6a, #452424);
+}
+.regfield1{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 148px;
+    top: 930px;
+}
+.owl-theme .owl-nav{
+    position: absolute;
+    top: 168px;
+    left: 16px;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+}
+.owl-theme .owl-nav [class*=owl-]{
+    font-size: 100px!important;
+}
+.sliderkont{
+    position: absolute;
+    width: 740px;
+    top: 0px;
+    left: 644px;
+}
+.owl-stage-outer { 
+    overflow: visible;
+    border: 9px solid #2A1C32;
+}
+    
+.owl-item {
+       opacity: 0;
+       transition: opacity 500ms;
+}
+.owl-item.active {
+      opacity: 1;
+}
+
+.linkskont2{
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    left: 180px;
+    top: 230px;
+}
+.linkskont2 a{
+    color: #000000;
+    font-family: glaho;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #00000031;
+}
+.linkskont2 a:hover{
+    text-shadow: 0px 0px 3px #cdab4c;
+}
+.carskont{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 66px;
+}
+.carskont a{
+    position: absolute;
+    font-size: 24px;
+    font-family: chemifonti;
+    font-weight: bold;
+    display: flex;
+    margin-left: 40px;
+    color: #000000;
+    margin-top: 10px;
+}
+.carskont a:hover{
+    border-bottom: 2px solid #000000;
+}
+.carskont .micu{
+    margin-right: 20px;
+}
+.supra, .skyline, .nsx, .impreza, .evo, .rx7{
+    border: 3px dashed #000000;
+}
+.collection{
+    width: 1468px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+    flex-wrap: wrap;
+}
+.carlist:hover{
+    box-shadow: 0px 1px 10px 10px rgba(0, 0, 0, 0.395);
+    transition: 0.5s;
+}
+.carlist{
+    background-image: url(../images/suprafoto.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+    width: 368px;
+    height: 222px;
+    border: 5px solid #291B31;
+    margin-bottom: 50px;
+}
+.shavifoni{
+    width: 101%;
+    background-color: #000000;
+    text-align: center;
+}
+.shavifoni h2{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: chemifonti;
+    margin-top: 170px;
+}
+.shavifoni a{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: glaho;
+    text-shadow: 0 0 3px #000000;
+    padding: 0 10px;
+}
+.shavifoni a:hover{
+    background-color: #4D3659;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.list2{
+    background-image: url(../images/Rectangle20.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+    width: 368px;
+    height: 222px;
+    border: 5px solid #291B31;
+    margin-left: 136px;
+}
+.list3{
+    background-image: url(../images/Rectangle21.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+    width: 368px;
+    height: 222px;
+    border: 5px solid #291B31;
+    margin-left: 136px; 
+}
+.list4{
+    background-image: url(../images/Rectangle22.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+    width: 368px;
+    height: 222px;
+    border: 5px solid #291B31;
+}
+.list5{
+    background-image: url(../images/Rectangle23.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+    width: 368px;
+    height: 222px;
+    border: 5px solid #291B31;
+    margin-left: 136px;
+}
+.list6{
+    background-image: url(../images/Rectangle24.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+    width: 368px;
+    height: 222px;
+    border: 5px solid #291B31;
+    margin-left: 136px;
+}
+.list7{
+    background-image: url(../images/Rectangle30.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+    width: 368px;
+    height: 222px;
+    border: 5px solid #291B31;
+    margin-bottom: 50px;
+
+}
+.list8{
+    background-image: url(../images/Rectangle31.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+    width: 368px;
+    height: 222px;
+    border: 5px solid #291B31;
+    margin-left: 136px;
+}
+.list9{
+    background-image: url(../images/Rectangle32.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+    width: 368px;
+    height: 222px;
+    border: 5px solid #291B31;
+    margin-left: 136px; 
+}
+.list10{
+    background-image: url(../images/Rectangle33.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+    width: 368px;
+    height: 222px;
+    border: 5px solid #291B31;
+}
+.list11{
+    background-image: url(../images/Rectangle34.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+    width: 368px;
+    height: 222px;
+    border: 5px solid #291B31;
+    margin-left: 136px;
+}
+.list12{
+    background-image: url(../images/Rectangle35.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+    width: 368px;
+    height: 222px;
+    border: 5px solid #291B31;
+    margin-left: 136px;
+}
+.list13{
+    background-image: url(../images/Rectangle40.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+    width: 368px;
+    height: 222px;
+    border: 5px solid #291B31;
+    margin-bottom: 50px;
+}
+.list14{
+    background-image: url(../images/Rectangle41.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+    width: 368px;
+    height: 222px;
+    border: 5px solid #291B31;
+    margin-left: 136px;
+}
+.list15{
+    background-image: url(../images/Rectangle42.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+    width: 368px;
+    height: 222px;
+    border: 5px solid #291B31;
+    margin-left: 136px; 
+}
+.list16{
+    background-image: url(../images/Rectangle43.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+    width: 368px;
+    height: 222px;
+    border: 5px solid #291B31;
+}
+.list17{
+    background-image: url(../images/Rectangle44.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+    width: 368px;
+    height: 222px;
+    border: 5px solid #291B31;
+    margin-left: 136px;
+}
+.list18{
+    background-image: url(../images/Rectangle45.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+    width: 368px;
+    height: 222px;
+    border: 5px solid #291B31;
+    margin-left: 136px;
+}
+.helper{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: glaho;
+    margin-left: 32px;
+    margin-top: 30px;
+}
+.continfo p{
+    font-size: 20px;
+    font-family: glaho;
+    width: 1338px;
+    margin-left: 32px;
+    margin-top: 30px;
+}
+.kontakti{
+    width: 700px;
+    margin-left: 20px;
+    padding: 20px;
+    font-family: glaho;
+    font-weight: bold;
+}
+.kontakti input{
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 10px;
+    background-color: #B9B9B9;
+}
+.kontakti textarea{
+    background-color: #B9B9B9;
+    border: 2px solid #000000;
+    margin-top: 20px;
+    margin-left: 20px;
+    resize: none;
+}
+.gagzavna input{
+    width: 106px;
+    background-color: #4D3659;
+    color: #ffffff;
+    font-family: glaho;
+    font-size: 20px;
+    text-shadow: 0 0 3px #000000;
+    margin-top: 20px;
+}
+.gagzavna input:hover{
+    background-color: #673e7d;
+    cursor: pointer;
+}
+.chatbox{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    font-size: 26px;
+    font-family: glaho;
+    font-weight: 700;
+    cursor: pointer;
+    z-index: 1;
+}
+.chatbox img{
+    width: 80px;
+    height: 80px;
+}
+.messagebox{
+    width: 300px;
+    border: 2px solid #000000;
+    background-image: linear-gradient(#9354B4,#0000005e);
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    display: none;
+    z-index: 1;
+    box-shadow: 0 0 3px #000000;
+}
+.chatheader{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #000000;
+    font-family: glaho;
+}
+.close{
+    padding: 5px;
+    font-weight: 800;
+}
+.chatmain{
+    width: 100%;
+    padding: 10px;
+}
+.chatmain input, .chatmain textarea{
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: 2px solid #000000;
+    margin-bottom: 20px;
+    background-color: #edededd5;
+}
+.chatmain textarea{
+    resize: none;
+    border-radius: 20px;
+}
+.chatmain .send{
+    width: 100%;
+    font-size: 24px;
+    height: 50px;
+    font-family: glahooo;
+    text-align: center;
+    padding: 5px;
+    background-color: #edededd5;
+    border: 2px solid #000000;
+}
+.chatmain input::placeholder, .chatmain textarea::placeholder, .send,.chatheader p{
+    color: #ffffff;
+    text-shadow: 0px 0px 5px #000000;
+}
+.send:hover, .close:hover{
+    cursor: pointer;
+}
+.send:hover{
+    background-color: #9354B4;
+}
+@media only screen and (max-width: 1024px) {
+
+    .welcomekont{
+        width: 100%;
+        display: block;
+        margin-top: 40px;
+
+    }
+    .welcome{
+        position: relative;
+        background-image: url(../images/Rectangle\ 9.png);
+        background-size: 100%;
+        width: 800px;
+        height: 434px;
+        left: 106px;
+
+    }
+    .welcome h2{  
+        width: 500px;
+        margin: 10px auto;
+    }
+    .welcome a{
+        top: 214px;
+        left: 614px;
+
+    }
+    .jdmkont{
+        width: 100%;
+        margin-top: 64px;
+        display: block;
+
+    }
+    .jdm{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        width: 800px;
+        background-position-y: -250px;
+    }
+    .sliderkont{
+        position: absolute;
+        top: 460px;
+        left: 0;
+        width: 802px;
+
+
+    }
+    .owl-theme .owl-nav{
+        top: 150px;
+        left: 10px;   
+}
+    .infokont4{
+        display: none;
+    }
+    .chatbox{
+        display: none;
+    }
+    .navigation .box{
+        width: 100%;
+        margin: 50px auto;
+    }
+    .searchkont{
+        display: none;
+
+    }
+    .linkskont{
+        display: none;
+    }
+    .calluskont{
+        margin-top: 800px;
+    }
+    .iconskont{
+        margin-top: 180px;
+        margin-left: 20px;
+    }
+    .regfield1{
+        display: none;
+    }
+    .infokont{
+        margin-top: 200px;
+    }
+    .continfo p{
+        width: 900px;
+    }
+    .continfo{
+        margin-top: 50px;
+    }
+    
+
+
+}

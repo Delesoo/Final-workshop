@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <div class="navigation">
+            <h1> <a href="index.html">import tuner</a></h1>
+            <h2>Import Tuner Inc.</h2>
+            <div class="box" id="nav"></div>
+        </div>
+    </header>
+
+    <main>
+
+    <div class="continfo">
+        <h2 class="helper">მომხმარებელთა მომსახურება - დაგვიკავშირდით</h2>
+        <p>თუ თქვენ გაქვთ რაიმე შეკითხვა ჩვენს პროდუქტებთან და სერვისებთან დაკავშირებით, ან არის მანქანა, რომელსაც ეძებთ და არ არის ხელმისაწვდომი ჩვენი ავტომობილების ინვენტარში, გთხოვთ დაგვიკავშირდეთ ქვემოთ მოცემულ შეკითხვებისს ველების შევსებით ან პირდაპირ დარეკვით ჩვენს ოფისში.</p>
+    </div>
+    
+    <form class="kontakti" method="POST" action="#">
+        <label for="firstname">სახელი* </label>
+            <input  type="text" name="firstname" id="firstname" required>     
+            <label for="email">Email address*</label>
+            <input type="email" name="email" id="email" required>
+            <label for="phone">ტელეფონის ნომერი</label>
+            <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+            <label for="text">ლოკაცია*</label>
+            <input type="text" name="text" id="text">
+            <label for="text">ავტომობილის Stock ნომერი</label>
+            <input type="text" name="text2" id="text2">
+            <textarea name="message" id="message" cols="100" rows="10" placeholder="კომენტარი"></textarea>
+
+        <div class="gagzavna">
+            <input type="submit" value="გაგზავნა">
+        </div>
+            
+
+
+
+    </form>
+
+    </main>
+
+    <footer>
+        <div class="calluskont">
+            <div class="callus">
+                  <h2>დაგვიკავშირდით</h2>
+      
+                  <div class="infokont">
+                      <h3 class="number">+995 557 606 111</h3>
+                      <h3>ImportTunerInc</h3>
+                      <h3>+995557606111</h3>
+                      <h3>info@importtuner-inc.com</h3>
+                  </div>
+                  
+      
+              <div class="iconskont">
+                      <div class="phone">
+                  <img src="images/phone-solid1.png" alt="phone">
+              </div>
+              <div class="facebook">
+                  <img src="images/facebook.png" alt="facebook">
+              </div>
+              <div class="whatsapp">
+                  <img src="images/whatsapp.png" alt="whatsapp">
+              </div>
+              <div class="email">
+                  <img src="images/envelope-solid1.png" alt="email">
+              </div>
+            </div> 
+                   
+          </div>
+                  
+          </div>
+      
+          <div class="callus2kont">
+              <div class="callus2">
+      
+                  
+                  
+                  <div class="infokont2">
+                      <ul>
+                          <li class="map"><a href="#">საიტის რუქა</a></li>
+                          <li><a href="#">ავტომობილების ინვენტარი</a></li>
+                          <li><a href="#">როგორ შევიძინო?</a></li>
+                          <li><a href="#">იმპორტი იაპონიიდან საქართველოში</a></li>
+                          <li><a href="#">ჩამოყვანის საფასური</a></li>
+                          
+                      </ul>
+                      
+                  </div>
+                  
+      
+                  <div class="infokont3">
+                          <ul>
+                              <li><a href="#">ჩვენს შესახებ</a></li>
+                              <li><a href="#">რატომ უნდა აგვირჩიო ჩვენ?</a></li>
+                              <li><a href="#">FAQ</a></li>
+                          </ul>
+                  </div>
+      
+                  
+      
+                  <div class="infokont4">
+                      <h2>ბიულეტენი</h2>
+                      <h3>დარეგისტრირდით, რათა პირველმა იცოდეთ ჩვენი სიახლეების, ახლად ჩამოსული მანქანების და სხვა შესანიშნავი გარიგებების შესახებ!</h3>
+                  </div>
+                  
+      
+              </div>
+              
+          </div>
+          <form action="POST">
+                      <div class="regfield1">
+      
+                          <label for="firstname"></label>
+                          <input type="text" name="firstname2" id="firstname2" placeholder="სახელი*" required>               
+                      <label for="email"></label>
+                      <input type="email" name="email2" id="email2" placeholder="E-mail" required>
+      
+                          <button type="submit" class="register">რეგისტრაცია</button>
+                      </div>
+          </form>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
